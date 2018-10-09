@@ -2,6 +2,11 @@ html, body {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel';
+  font-weight: normal;
+}
+
 /* Easily resize images */
 .img-responsive {
   max-width: 100%;
@@ -28,4 +33,10 @@ html, body {
   font-style: normal;
   font-weight: 400;
   src: url('assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+/* Simple looking font for full texts */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/fonts/OpenSans-CondLight-webfont.ttf') format('truetype');
 }

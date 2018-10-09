@@ -56,8 +56,6 @@
 
 #resamvi {
   padding-left: 1%;
-  font-family: 'Cinzel';
-  font-weight: normal;
 }
 
 #hero-description {

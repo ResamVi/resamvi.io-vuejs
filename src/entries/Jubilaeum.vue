@@ -1,5 +1,5 @@
 <template>
-  <EntryLayout>
+  <Entry>
     <template slot="date">5. September, 2017</template>
     <template slot="title">100 Abonennenten</template>
     <template slot="content">
@@ -44,16 +44,16 @@
         sorry.
       </p>
     </template>
-  </EntryLayout>
+  </Entry>
 </template>
 
 <script>
-import EntryLayout from '../EntryLayout.vue';
+import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'AboJubilaeum',
+  name: 'Jubilaeum',
   components: {
-    EntryLayout,
+    Entry,
   },
 };
 </script>
