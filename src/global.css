@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+}
+
+/* Easily resize images */
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+}
+
+/* Custom serif font for extravagant titles */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Cinzel-Regular.otf') format('opentype');
+}
+
+/* Spacey looking subtitles */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
