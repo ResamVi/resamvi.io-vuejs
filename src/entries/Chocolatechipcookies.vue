@@ -15,7 +15,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Bouncinball',
+  name: 'Chocolatechipcookies',
   components: {
     Entry,
   },

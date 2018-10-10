@@ -11,7 +11,27 @@
     <section class="entry-content">
         <slot name="content"></slot>
     </section>
-    <footer></footer>
+    <footer>
+      <h2 class="center">Schreib dem Autor 'ne Mail</h2>
+      <form action="action_page.php" style="width:100%;">
+        <div class="row">
+          <h3 class="col-25"><label for="name">Name</label></h3>
+          <h3 class="col-75"><input type="text" name="name" value="Anonym"></h3>
+        </div>
+        <div class="row">
+          <h3 class="col-25"><label for="lname">Titel</label></h3>
+          <h3 class="col-75"><input type="text" name="title" value="Re: "></h3>
+        </div>
+        <div class="row">
+          <h3 class="col-25"><label for="subject">Text</label></h3>
+          <h3 class="col-75"><textarea id="subject" name="subject">Hey, </textarea></h3>
+        </div>
+        <div class="center">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </footer>        
+
   </article>
 </template>
 
@@ -20,10 +40,12 @@
   color: #696969;
   margin: 0;
 }
+
 .entry-title {
-  margin-top:0px;
+  margin-top: 0px;
   border-bottom: 1px solid #333;
 }
+
 .entry-content {
   font-family: 'Open Sans';
   margin-bottom: 10%;
@@ -40,6 +62,52 @@ ul {
 ol {
   list-style-position: inside;
   padding-left: 10px;
+}
+
+footer {
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  padding: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+input,
+textarea {
+  width: 60%;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+#subject {
+  height: 100px
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 </style>

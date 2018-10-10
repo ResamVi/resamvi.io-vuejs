@@ -12,7 +12,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Bouncinball',
+  name: 'Erster',
   components: {
     Entry,
   },
