@@ -1,6 +1,14 @@
 pipeline {
   agent any
   stages {
+    stage('Info') {
+      steps {
+        sh 'whoami'
+        sh 'echo Home: $HOME'
+        sh 'yarn --version'
+      }
+    }
+
     stage('Build') {
       steps {
         sh 'yarn install'
