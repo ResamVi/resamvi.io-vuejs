@@ -22,7 +22,8 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        sh 'cp dist ~/resamvi.de'
+        sh 'ls -a'
+        sh 'cp dist ~/resamvi.de -r'
       }
     }
   }
