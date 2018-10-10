@@ -7,6 +7,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #CCC;
+}
+
+th {
+  border: 1px solid #CCC;
+  background: #F3F3F3;
+  font-weight: 400;
+}
+
 /* Easily resize images */
 .img-responsive {
   max-width: 100%;
