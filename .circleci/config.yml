@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    steps:
+      - run: yarn --version
+      - run: node --version
+      - run: pwd
+      - run: sudo apt-get update && sudo apt-get install rsync
+      - add_ssh_keys:
+            fingerprints:
+                - "37:d0:e4:9a:e2:6f:a9:9b:3c:75:b5:0b:c4:b8:dc:5a"
+      - run: echo 'resamvi.de,159.89.15.242 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBF+0Bmaka5fCGHff+Sm119QCigcn4TkM08Z8LFV0w3331tqYlTv1Fq8gnJZslwAqQL50+yVZaO/Z6UAS8M98jjw=' >> ~/.ssh/known_hosts
+      - checkout
+      - run: yarn install
+      - run: yarn build
+      - run: rsync -va dist/ root@resamvi.de:/var/www/html
+      - store_artifacts:
+          path: dist/
