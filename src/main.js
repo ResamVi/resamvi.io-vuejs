@@ -28,6 +28,7 @@ Vue.use(infiniteScroll);
 Vue.use(VueRouter);
 
 const router = new VueRouter({
+  mode: 'history',
   routes: [
     { path: '/', component: Homepage },
     { path: '/impressum', component: AboutUs },

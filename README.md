@@ -24,3 +24,11 @@ yarn run test
 ```
 yarn run lint
 ```
+
+### NGINX config
+To use vue in history mode (omit '#' in URL)
+```
+location / {
+    try_files $uri $uri/ /index.html;
+}
+```
