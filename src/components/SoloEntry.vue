@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import SlimHeader from './SlimHeader.vue'
+import SlimHeader from './SlimHeader.vue';
 
 export default {
   components: {
     SlimHeader,
-  }
-}
+  },
+};
 </script>
 
 
