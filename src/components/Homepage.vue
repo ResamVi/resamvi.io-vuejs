@@ -23,11 +23,37 @@
 <script>
 import Header from './Header.vue';
 
+import Pastmemories from './entries/Pastmemories.vue';
+import Spayle from './entries/Spayle.vue';
+import Jubilaeum from './entries/Jubilaeum.vue';
+import Rheinuferlauf17 from './entries/Rheinuferlauf17.vue';
+import Apfelkuchen from './entries/Apfelkuchen.vue';
+import Charityrun17 from './entries/Charityrun17.vue';
+import Kaesekuchen from './entries/Kaesekuchen.vue';
+import Screenbounce from './entries/Screenbounce.vue';
+import Bouncingball from './entries/Bouncingball.vue';
+import Chocolatechipcookies from './entries/Chocolatechipcookies.vue';
+import Start from './entries/Start.vue';
+import Erster from './entries/Erster.vue';
+
 const ENTRY_COUNT = 12;
+
 export default {
   name: 'homepage',
   components: {
     Header,
+    Pastmemories,
+    Spayle,
+    Jubilaeum,
+    Rheinuferlauf17,
+    Apfelkuchen,
+    Charityrun17,
+    Kaesekuchen,
+    Screenbounce,
+    Bouncingball,
+    Chocolatechipcookies,
+    Start,
+    Erster,
   },
   data() {
     return {

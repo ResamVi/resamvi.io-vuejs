@@ -53,19 +53,6 @@ const router = new VueRouter({
   ],
 });
 
-Vue.component('Pastmemories', Pastmemories);
-Vue.component('Spayle', Spayle);
-Vue.component('Jubilaeum', Jubilaeum);
-Vue.component('Rheinuferlauf17', Rheinuferlauf17);
-Vue.component('Apfelkuchen', Apfelkuchen);
-Vue.component('Charityrun17', Charityrun17);
-Vue.component('Kaesekuchen', Kaesekuchen);
-Vue.component('Screenbounce', Screenbounce);
-Vue.component('Bouncingball', Bouncingball);
-Vue.component('Chocolatechipcookies', Chocolatechipcookies);
-Vue.component('Start', Start);
-Vue.component('Erster', Erster);
-
 new Vue({
   router,
   render: h => h(App),
