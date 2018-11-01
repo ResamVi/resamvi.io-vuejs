@@ -3,17 +3,18 @@
     <Header />
     <main>
       <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
-        <Spayle v-if="visible[0]" />
-        <Jubilaeum v-if="visible[1]" />
-        <Rheinuferlauf17 v-if="visible[2]" />
-        <Apfelkuchen v-if="visible[3]" />
-        <Charityrun17 v-if="visible[4]" />
-        <Kaesekuchen v-if="visible[5]" />
-        <Screenbounce v-if="visible[6]" />
-        <Bouncingball v-if="visible[7]" />
-        <Chocolatechipcookies v-if="visible[8]" />
-        <Start v-if="visible[9]" />
-        <Erster v-if="visible[10]" />
+        <Ytpmv v-if="visible[0]" />
+        <Spayle v-if="visible[1]" />
+        <Jubilaeum v-if="visible[2]" />
+        <Rheinuferlauf17 v-if="visible[3]" />
+        <Apfelkuchen v-if="visible[4]" />
+        <Charityrun17 v-if="visible[5]" />
+        <Kaesekuchen v-if="visible[6]" />
+        <Screenbounce v-if="visible[7]" />
+        <Bouncingball v-if="visible[8]" />
+        <Chocolatechipcookies v-if="visible[9]" />
+        <Start v-if="visible[10]" />
+        <Erster v-if="visible[11]" />
       </div>
     </main>
   </div>

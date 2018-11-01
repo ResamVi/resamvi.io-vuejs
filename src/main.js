@@ -18,6 +18,7 @@ import Bouncingball from './entries/Bouncingball.vue';
 import Chocolatechipcookies from './entries/Chocolatechipcookies.vue';
 import Start from './entries/Start.vue';
 import Erster from './entries/Erster.vue';
+import Ytpmv from './entries/Ytpmv.vue';
 
 import './global.css';
 
@@ -46,6 +47,7 @@ const router = new VueRouter({
         { path: 'chocolatechipcookies', component: Chocolatechipcookies },
         { path: 'start', component: Start },
         { path: 'erster', component: Erster },
+        { path: 'ytpmv', component: Ytpmv },
       ],
     },
   ],
@@ -62,6 +64,7 @@ Vue.component('Bouncingball', Bouncingball);
 Vue.component('Chocolatechipcookies', Chocolatechipcookies);
 Vue.component('Start', Start);
 Vue.component('Erster', Erster);
+Vue.component('Ytpmv', Ytpmv);
 
 new Vue({
   router,
