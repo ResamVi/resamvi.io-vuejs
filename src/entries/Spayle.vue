@@ -5,7 +5,7 @@
     <template slot="content">
       <header class="center">
         <p>Der Alpha-Release von meinem Game:</p>
-        <img src="https://user-images.githubusercontent.com/6261556/31128423-097c8264-a852-11e7-932a-8576599832d9.png">
+        <img src="@/assets/spayle/title.png">
         <p>Shoot 'em up game</p>
       </header>
         
@@ -16,9 +16,9 @@
         and explode-fart their faces with all the means you got on board - <strong>sp</strong>ace flight with st<strong>yle</strong>!
       </section>
 
-      <img src="https://user-images.githubusercontent.com/6261556/31543397-21020cf8-b016-11e7-8071-c3fb19c5d803.gif" class="img-responsive">
+      <img src="@/assets/spayle/animation1.gif" class="img-responsive">
       <br />
-      <img src="https://user-images.githubusercontent.com/6261556/31543338-e5aa1998-b015-11e7-99cf-2ae10088db15.gif" class="img-responsive">
+      <img src="@/assets/spayle/animation2.gif" class="img-responsive">
       
 
       <h2>Play now</h2>
@@ -81,7 +81,7 @@
       
       <div class="paragraph">
         <div><img src="@/assets/spayle/browserify.png"></div>
-        <p>Was ich dann mit wachsendem @/assets/spayle feststellen musste, ist dass langsam die Sache - in einer einzigen Datei zusammengequetscht - unübersichtlich wurde.<br>
+        <p>Was ich dann mit wachsendem Code feststellen musste, ist dass langsam die Sache - in einer einzigen Datei zusammengequetscht - unübersichtlich wurde.<br>
         Also brauchte ich etwas um das ganze auf mehrere Datein zu verteilen und zu Modularisieren.<br>
         "Hey, es gibt in JS6 jetzt auch import", durfte ich ein paar Tage später feststellen. Naja, zu spät.</p>
       </div><br>

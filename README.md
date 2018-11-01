@@ -1,4 +1,8 @@
-# resamvi.de
+# resamvi.de - Website
+![title](https://i.imgur.com/DuKhNcp.png)
+
+<a href="https://resamvi.de">resamvi.de</a> is my personal blog, website and showcase of insights or projects of which I write lengthy articles in German. This website makes use of technologies like VueJS, CircleCI to write and deploy a succint website.
+
 
 ## Project setup
 ```
@@ -15,12 +19,14 @@ yarn run serve
 yarn run build
 ```
 
-### Run your tests
+### NGINX config
+To use vue in history mode (omit '#' in URL)
 ```
-yarn run test
+location / {
+    try_files $uri $uri/ /index.html;
+}
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+# TODO
+- Conform to Open Closed principle
+- Mail service

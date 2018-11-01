@@ -1,6 +1,5 @@
 <template>
   <header id="hero-page">
-
     <div id="hero-image">
       <img src="@/assets/logo.png">
       <img src="@/assets/verticalLine.png" id="verticalLine">
@@ -9,10 +8,6 @@
         <div id="hero-description">Hey, <a href="impressum.html">Julien</a> hier.</div>
       </div>
     </div>
-    
-
-    
-
   </header>
 </template>
 

@@ -7,6 +7,7 @@ import Homepage from './components/Homepage.vue';
 import SoloEntry from './components/SoloEntry.vue';
 import AboutUs from './components/AboutUs.vue';
 
+import Pastmemories from './entries/Pastmemories.vue';
 import Spayle from './entries/Spayle.vue';
 import Jubilaeum from './entries/Jubilaeum.vue';
 import Rheinuferlauf17 from './entries/Rheinuferlauf17.vue';
@@ -36,6 +37,7 @@ const router = new VueRouter({
       path: '/eintrag',
       component: SoloEntry,
       children: [
+        { path: 'past-memories', component: Pastmemories },
         { path: 'spayle', component: Spayle },
         { path: 'jubilaeum', component: Jubilaeum },
         { path: 'rheinuferlauf', component: Rheinuferlauf17 },
@@ -52,19 +54,6 @@ const router = new VueRouter({
     },
   ],
 });
-
-Vue.component('Spayle', Spayle);
-Vue.component('Jubilaeum', Jubilaeum);
-Vue.component('Rheinuferlauf17', Rheinuferlauf17);
-Vue.component('Apfelkuchen', Apfelkuchen);
-Vue.component('Charityrun17', Charityrun17);
-Vue.component('Kaesekuchen', Kaesekuchen);
-Vue.component('Screenbounce', Screenbounce);
-Vue.component('Bouncingball', Bouncingball);
-Vue.component('Chocolatechipcookies', Chocolatechipcookies);
-Vue.component('Start', Start);
-Vue.component('Erster', Erster);
-Vue.component('Ytpmv', Ytpmv);
 
 new Vue({
   router,
