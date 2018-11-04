@@ -5,7 +5,7 @@
       <img src="@/assets/verticalLine.png" id="verticalLine">
       <div>
         <h1 id="resamvi">ResamVi</h1>
-        <div id="hero-description">Hey, <a href="impressum.html">Julien</a> hier.</div>
+        <div id="hero-description">Hey, <router-link to="/impressum">Julien</router-link> hier.</div>
       </div>
     </div>
   </header>

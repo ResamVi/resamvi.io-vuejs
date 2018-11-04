@@ -10,7 +10,7 @@
 
       <div id="hero-description">
         <div>
-          Hey, ich bin <a href="impressum.html">Julien</a>.
+          Hey, ich bin <router-link to="/impressum">Julien</router-link>.
           <br />
           Informatikstudent.
         </div>
