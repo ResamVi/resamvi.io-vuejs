@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+mail/config/config.go
+
 
 # local env files
 .env.local

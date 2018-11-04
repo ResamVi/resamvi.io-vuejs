@@ -29,4 +29,4 @@ location / {
 
 # TODO
 - Conform to Open Closed principle
-- Mail service
+- Init mail service in CI

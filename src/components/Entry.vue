@@ -13,27 +13,60 @@
     </section>
     <footer>
       <h2 class="center">Schreib dem Autor 'ne Mail</h2>
-      <form action="action_page.php" style="width:100%;">
+      <form style="width:100%;">
         <div class="row">
           <h3 class="col-25"><label for="name">Name</label></h3>
-          <h3 class="col-75"><input type="text" name="name" value="Anonym"></h3>
+          <h3 class="col-75"><input type="text" name="name" v-model="name"></h3>
         </div>
         <div class="row">
           <h3 class="col-25"><label for="lname">Titel</label></h3>
-          <h3 class="col-75"><input type="text" name="title" value="Re: "></h3>
+          <h3 class="col-75"><input type="text" name="title" v-model="title"></h3>
         </div>
         <div class="row">
           <h3 class="col-25"><label for="subject">Text</label></h3>
-          <h3 class="col-75"><textarea id="subject" name="subject">Hey, </textarea></h3>
-        </div>
-        <div class="center">
-          <input type="submit" value="Submit">
+          <h3 class="col-75"><textarea id="subject" name="subject" v-model="content"></textarea></h3>
         </div>
       </form>
+      <div class="center">
+        <button @click="send">Senden</button>
+      </div>
     </footer>        
 
   </article>
 </template>
+
+<script>
+
+export default {
+
+  data() {
+    const entryTitle = this.$route.path.slice('/eintrag/'.length);
+    
+    return {
+      name: 'Anonym',
+      title: `Re: ${entryTitle}`,
+      content: 'Hey, ',
+    };
+  },
+
+  methods: {
+    send() {
+      const http = new XMLHttpRequest();
+      http.open('POST', 'http://resamvi.de:9090', true);
+      http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+      http.onreadystatechange = () => {
+        if (http.readyState === 4 && http.status === 200) {
+          alert('Mail gesendet');
+        }
+      };
+
+      http.send(`name=${this.name}&title=${this.title}&content=${this.content}`);
+    },
+  },
+};
+
+</script>
 
 <style scoped>
 .entry-date {
@@ -104,7 +137,7 @@ textarea {
 
   .col-25,
   .col-75,
-  input[type=submit] {
+  button {
     width: 100%;
     margin-top: 0;
   }
