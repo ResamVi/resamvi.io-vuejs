@@ -30,7 +30,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	if r.Method == "POST" {
 		r.ParseForm()
-		content := fmt.Sprintf("Name:\t\n%sTitel:\t%s\nInhalt:\n%s", r.Form["name"][0], r.Form["title"][0], r.Form["content"][0])
+		content := fmt.Sprintf("Name:\t%s\nTitel:\t%s\nInhalt:\n%s", r.Form["name"][0], r.Form["title"][0], r.Form["content"][0])
 		sendMail(content)
 	}
 }
