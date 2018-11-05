@@ -52,7 +52,7 @@ export default {
   methods: {
     send() {
       const http = new XMLHttpRequest();
-      http.open('POST', 'http://resamvi.de:9090', true);
+      http.open('POST', 'https://resamvi.de:9090', true);
       http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 
       http.onreadystatechange = () => {
