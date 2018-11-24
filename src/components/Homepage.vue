@@ -3,6 +3,7 @@
     <Header />
     <main>
       <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
+        <Schlossparklauf18 v-if="visible[13]" />
         <Ytpmv v-if="visible[12]" />
         <Pastmemories v-if="visible[11]" />
         <Spayle v-if="visible[10]" />
@@ -22,6 +23,7 @@
 </template>
 
 <script>
+import Schlossparklauf18 from '@/entries/Schlossparklauf18.vue';
 import Pastmemories from '@/entries/Pastmemories.vue';
 import Spayle from '@/entries/Spayle.vue';
 import Jubilaeum from '@/entries/Jubilaeum.vue';
@@ -37,12 +39,13 @@ import Erster from '@/entries/Erster.vue';
 import Ytpmv from '@/entries/Ytpmv.vue';
 import Header from './Header.vue';
 
-const ENTRY_COUNT = 12;
+const ENTRY_COUNT = 13;
 
 export default {
   name: 'homepage',
   components: {
     Header,
+    Schlossparklauf18,
     Pastmemories,
     Spayle,
     Jubilaeum,

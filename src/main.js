@@ -7,6 +7,7 @@ import Homepage from './components/Homepage.vue';
 import SoloEntry from './components/SoloEntry.vue';
 import AboutUs from './components/AboutUs.vue';
 
+import Schlossparklauf18 from './entries/Schlossparklauf18.vue';
 import Pastmemories from './entries/Pastmemories.vue';
 import Spayle from './entries/Spayle.vue';
 import Jubilaeum from './entries/Jubilaeum.vue';
@@ -37,6 +38,7 @@ const router = new VueRouter({
       path: '/eintrag',
       component: SoloEntry,
       children: [
+        { path: 'schlossparklauf18', component: Schlossparklauf18 },
         { path: 'past-memories', component: Pastmemories },
         { path: 'spayle', component: Spayle },
         { path: 'jubilaeum', component: Jubilaeum },
