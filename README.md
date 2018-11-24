@@ -4,20 +4,18 @@
 <a href="https://resamvi.de">resamvi.de</a> is my personal blog, website and showcase of insights or projects of which I write lengthy articles in German. This website makes use of technologies like VueJS, CircleCI to write and deploy a succint website.
 
 
-## Project setup
+## Development
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### Build website 
 ```
 yarn run build
 ```
+
+
 
 ### NGINX config
 To use vue in history mode (omit '#' in URL)
