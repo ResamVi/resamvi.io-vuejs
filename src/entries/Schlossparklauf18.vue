@@ -122,7 +122,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Charityrun',
+  name: 'schlossparklauf18',
   components: {
     Entry,
   },

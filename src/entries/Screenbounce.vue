@@ -26,7 +26,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Screenbounce',
+  name: 'screenbounce',
   components: {
     Entry,
   },

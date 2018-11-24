@@ -214,7 +214,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'PastMemories',
+  name: 'past-memories',
   components: {
     Entry,
   },

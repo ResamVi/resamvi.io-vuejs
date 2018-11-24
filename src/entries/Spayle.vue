@@ -117,7 +117,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Spayle',
+  name: 'spayle',
   components: {
     Entry,
   },

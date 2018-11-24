@@ -47,7 +47,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Start',
+  name: 'start',
   components: {
     Entry,
   },

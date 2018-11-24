@@ -45,7 +45,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Kaesekuchen',
+  name: 'kaesekuchen',
   components: {
     Entry,
   },

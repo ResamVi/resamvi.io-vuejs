@@ -51,7 +51,7 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-  name: 'Jubilaeum',
+  name: 'jubilaeum',
   components: {
     Entry,
   },
