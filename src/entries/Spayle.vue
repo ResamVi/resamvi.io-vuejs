@@ -23,7 +23,7 @@
 
       <h2>Play now</h2>
 
-      The latest release is available <a href="game/spayle.html">here</a>
+      The latest release is available <a href="spayle">here</a>
 
       <h2>Download</h2>
 
