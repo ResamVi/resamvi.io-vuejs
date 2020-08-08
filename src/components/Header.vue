@@ -1,9 +1,8 @@
 <template>
   <header id="hero-page">
-
-    <div id="horizontal-vertical-center">
+    <div id="container">
       <div id="hero-image">
-        <img src="@/assets/logo.png">
+        <img src="@/assets/logo.png" id="logo">
         <img src="@/assets/verticalLine.png" id="verticalLine">
         <h1 id="resamvi">ResamVi</h1>
       </div>
@@ -20,9 +19,6 @@
         <a href="https://github.com/ResamVi">
           <img src="@/assets/github.png" class="icon">
         </a>
-        <a href="https://www.hackerrank.com/ResamVi" id="left-right-spacing">
-          <img src="@/assets/hackerrank.png" class="icon">
-        </a>
         <a href="https://www.youtube.com/user/ResamVi">
           <img src="@/assets/youtube.png" class="icon">
         </a>
@@ -38,7 +34,7 @@
   display: grid;
 }
 
-#horizontal-vertical-center {
+#container {
   margin: auto;
 }
 
@@ -73,6 +69,11 @@
   margin: 0 10%;
 }
 
+.icon {
+  margin: 10px;
+  display: inline;
+}
+
 /* Resizing Text and Images appropriately */
 @media only screen and (min-width: 614px) {
   #resamvi {
@@ -81,10 +82,6 @@
 
   #hero-description {
     font-size: 1.5em;
-  }
-
-  .icon {
-    width: 100%;
   }
 }
 
@@ -97,8 +94,9 @@
     font-size: 1.2em;
   }
 
-  .icon {
-    width: 70%;
+  #logo {
+    width: 40%;
+    height: auto;
   }
 }
 
@@ -111,8 +109,14 @@
     font-size: 0.8em;
   }
 
-  .icon {
-    width: 50%;
+  #logo {
+    width: 30%;
+    height: auto;
+  }
+
+  audio {
+    width: 100%;
+    max-width: 100%;
   }
 }
 </style>

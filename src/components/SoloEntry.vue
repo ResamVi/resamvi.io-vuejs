@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SlimHeader />
+    <HeaderSlim />
     <main>
       <router-view />
     </main>
@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import SlimHeader from './SlimHeader.vue';
+import HeaderSlim from './HeaderSlim.vue';
 
 export default {
   components: {
-    SlimHeader,
+    HeaderSlim,
   },
 };
 </script>

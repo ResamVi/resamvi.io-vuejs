@@ -1,58 +1,103 @@
-html, body {
-  margin: 0;
+/* Tags */
+
+html,
+body {
+    margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cinzel';
-  font-weight: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cinzel';
+    font-weight: normal;
+    overflow-wrap: break-word;
+}
+
+a,
+cite {
+    overflow-wrap: break-word;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #f5f2f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 10px;
 }
 
 td {
-  border: 1px solid #CCC;
+    border: 1px solid #CCC;
 }
 
 th {
-  border: 1px solid #CCC;
-  background: #F3F3F3;
-  font-weight: 400;
+    border: 1px solid #CCC;
+    background: #F3F3F3;
+    font-weight: 400;
 }
 
-/* Easily resize images */
+iframe {
+    max-width: 100%;
+}
+
+video {
+    max-height: 50vh;
+}
+
+
+/* Classes */
+
 .img-responsive {
-  max-width: 100%;
-  display: block;
-  height: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
-/* Center text */
 .center {
-  text-align: center;
+    text-align: center;
 }
+
+.center-img {
+    margin: 0 auto;
+}
+
 
 /* Custom serif font for extravagant titles */
+
 @font-face {
-  font-family: 'Cinzel';
-  font-style: normal;
-  font-weight: 400;
-  src: url('assets/fonts/Cinzel-Regular.otf') format('opentype');
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/Cinzel-Regular.otf') format('opentype');
 }
+
 
 /* Spacey looking subtitles */
+
 @font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url('assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/SpaceMono-Regular.ttf') format('truetype');
 }
 
+
 /* Simple looking font for full texts */
+
 @font-face {
-  font-family: 'Open Sans';
-  src: url('assets/fonts/OpenSans-CondLight-webfont.ttf') format('truetype');
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans-CondLight-webfont.ttf') format('truetype');
 }

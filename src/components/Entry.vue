@@ -11,27 +11,6 @@
     <section class="entry-content">
         <slot name="content"></slot>
     </section>
-    <footer>
-      <h2 class="center">Schreib dem Autor 'ne Mail</h2>
-      <form style="width:100%;">
-        <div class="row">
-          <h3 class="col-25"><label for="name">Name</label></h3>
-          <h3 class="col-75"><input type="text" name="name" v-model="name"></h3>
-        </div>
-        <div class="row">
-          <h3 class="col-25"><label for="lname">Titel</label></h3>
-          <h3 class="col-75"><input type="text" name="title" v-model="title"></h3>
-        </div>
-        <div class="row">
-          <h3 class="col-25"><label for="subject">Text</label></h3>
-          <h3 class="col-75"><textarea id="subject" name="subject" v-model="content"></textarea></h3>
-        </div>
-      </form>
-      <div class="center">
-        <button @click="send">Senden</button>
-      </div>
-    </footer>        
-
   </article>
 </template>
 
