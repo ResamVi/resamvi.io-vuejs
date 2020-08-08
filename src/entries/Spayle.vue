@@ -5,7 +5,7 @@
     <template slot="content">
       <header class="center">
         <p>Der Alpha-Release von meinem Game:</p>
-        <img src="@/assets/spayle/title.png">
+        <img src="@/assets/011_spayle/title.png" class="img-responsive" loading="lazy">
         <p>Shoot 'em up game</p>
       </header>
         
@@ -16,9 +16,9 @@
         and explode-fart their faces with all the means you got on board - <strong>sp</strong>ace flight with st<strong>yle</strong>!
       </section>
 
-      <img src="@/assets/spayle/animation1.gif" class="img-responsive">
+      <img src="@/assets/011_spayle/animation1.gif" class="img-responsive">
       <br />
-      <img src="@/assets/spayle/animation2.gif" class="img-responsive">
+      <img src="@/assets/011_spayle/animation2.gif" class="img-responsive">
       
 
       <h2>Play now</h2>
@@ -48,7 +48,7 @@
 
       <div class="center">Written in</div>
 
-      <div class="center"><img src="@/assets/spayle/phaser_logo.png" width="190" height="160"></div>
+      <div class="center"><img src="@/assets/011_spayle/phaser_logo.png" width="190" height="160"></div>
 
       <div class="center">Created by <a href="mailto:admin@resamvi.de">Julien</a>. Powered by pizza, pixels and love.</div>
       
@@ -65,10 +65,10 @@
       <p>5,5 Wochen Entwicklungszeit</p>
       <p>Angefangen mit 0 Ahnung von Phaser und 0,1 Ahnung von Javascript</p>
       
-      <img src="@/assets/spayle/contribs.png" class="img-responsive">
+      <img src="@/assets/011_spayle/contribs.png" class="img-responsive">
       
       <div class="paragraph">
-        <div><img src="@/assets/spayle/code.png"></div>
+        <div><img src="@/assets/011_spayle/code.png" class="img-responsive" loading="lazy"></div>
         <p>Hauptsächliche Schwierigkeit war das aufstellen der Entwicklungsumgebung. Ich habe mich für Visual Studio Code
         entschieden.</p>
       </div><br>
@@ -76,11 +76,11 @@
       <div class="paragraph">
         <p>Da aber Games in Phaser eine Serverumgebung zum Laufen benötigen, musste ich erst einen minimalen Server in Node.js schreiben.<br>
         Weil Node.js noch in Javascript geschrieben ist und die Integration mit Visual Studio Code sehr ausgebaut ist, lässt sich der Server zusammen mit dem Spiel ganz leicht beim Debuggen ausführen und später um Multiplayer-Elemente mit Sockets.io erweitern.</p>
-        <div><img src="@/assets/spayle/node.png"></div>
+        <div><img src="@/assets/011_spayle/node.png" class="img-responsive" loading="lazy"></div>
       </div><br>
       
       <div class="paragraph">
-        <div><img src="@/assets/spayle/browserify.png"></div>
+        <div><img src="@/assets/011_spayle/browserify.png" class="img-responsive" loading="lazy"></div>
         <p>Was ich dann mit wachsendem Code feststellen musste, ist dass langsam die Sache - in einer einzigen Datei zusammengequetscht - unübersichtlich wurde.<br>
         Also brauchte ich etwas um das ganze auf mehrere Datein zu verteilen und zu Modularisieren.<br>
         "Hey, es gibt in JS6 jetzt auch import", durfte ich ein paar Tage später feststellen. Naja, zu spät.</p>
@@ -90,7 +90,7 @@
         <p>Und zum Schluss kann mit Phaser einem Framework in Javascript der Quelltext für das eigentliche Spiel geschrieben werden.
         Alle umständliche low-level Arbeit die mit WebGL/Canvas werden wegabstrahiert.<br>
         Was übrig bleibt ist alles was es eigentlich braucht. Texturen/Sprites, Physik und Kollisionssystem, Sound/Musikverarbeitung, Schnittstelle für Steuerung usw.</p>
-        <div><img src="@/assets/spayle/phaser.png"></div>
+        <div><img src="@/assets/011_spayle/phaser.png" class="img-responsive" loading="lazy"></div>
       </div>
       
       <h1>Komplikationen</h1>

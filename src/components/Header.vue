@@ -113,10 +113,5 @@
     width: 30%;
     height: auto;
   }
-
-  audio {
-    width: 100%;
-    max-width: 100%;
-  }
 }
 </style>

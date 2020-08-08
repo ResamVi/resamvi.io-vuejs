@@ -36,7 +36,7 @@
         </ol>
 
         <h2>Ergebnis</h2>
-        <img src="@/assets/kaesekuchen/kaesekuchen.jpg" alt="kaesekuchen" class="img-responsive">
+        <img src="@/assets/007_kaesekuchen/kaesekuchen.jpg" alt="kaesekuchen" class="img-responsive">
     </template>
   </Entry>
 </template>

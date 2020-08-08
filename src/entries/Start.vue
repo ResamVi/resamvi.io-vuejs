@@ -18,18 +18,18 @@
       <br />
       <br /> Es fängt an mit einfachem Pan/Crop,
 
-      <img src="@/assets/start/pancrop.gif" alt="pancrop" class="img-responsive">
+      <img src="@/assets/002_start/pancrop.gif" alt="pancrop" class="img-responsive">
       <br />
 
       <p>denn was hierbei zu Vegas die Sache deutlich besser aussehen lässt sind zusätzliche Optionen Geschwindigkeit und
         Beschleunigung zwischen Keyframes zu optimieren.</p>
 
       Automatisiertes Motion Tracking,
-      <img src="@/assets/start/motiontrack.gif" alt="motiontrack" class="img-responsive">
+      <img src="@/assets/002_start/motiontrack.gif" alt="motiontrack" class="img-responsive">
       <br /> damit hinterher der "stehende" Text eingefügt wird. Das
       <a href="http://www.neuwort.de/2009/09/neuwort-kompositionieren/">kompositionieren</a> von roher Footage.
       <br />
-      <img src="@/assets/start/kompositionieren.png" alt="komposition" class="img-responsive">
+      <img src="@/assets/002_start/kompositionieren.png" alt="komposition" class="img-responsive">
       <br />
 
       <p>Mehrere Clips können in ihrer Position in Relation stehen und lassen sich gemeinsam manipulieren. Das alles trägt

@@ -57,6 +57,11 @@ video {
     max-height: 50vh;
 }
 
+audio {
+    width: 100%;
+    max-width: 100%;
+}
+
 
 /* Classes */
 

@@ -3,7 +3,7 @@
     <template slot="date">23. Juli, 2017</template>
     <template slot="title">Rheinuferlauf</template>
     <template slot="content">
-      <img src="@/assets/rheinuferlauf17/kehllogo.png" alt="logo" class="img-responsive" width="75%" style="border-radius:10px;">
+      <img src="@/assets/009_rheinuferlauf17/kehllogo.png" alt="logo" class="img-responsive" width="75%" style="border-radius:10px;">
       <br>
       <h2>Renninformationen</h2>
       <p>Seit dem Marathon im März muss ich einsehen der 10k ist doch die Disziplin in der ich mich wohlfühle.</p>
@@ -23,7 +23,7 @@
       <strong>Webseite: </strong>
       <a href="https://www.kehler-rheinuferlauf.de/">hhttps://www.kehler-rheinuferlauf.de/</a>
 
-      <img src="@/assets/rheinuferlauf17/strecke.jpg" alt="strecke" class="img-responsive" width="50%">
+      <img src="@/assets/009_rheinuferlauf17/strecke.jpg" alt="strecke" class="img-responsive" width="50%">
       <br>
 
       <h2>Ziele</h2>
@@ -36,14 +36,14 @@
       </ul>
 
       <h2>Bilder</h2>
-      <img src="@/assets/rheinuferlauf17/start.jpg" alt="anfang" class="img-responsive">
+      <img src="@/assets/009_rheinuferlauf17/start.jpg" alt="anfang" class="img-responsive">
       <br>
-      <img src="@/assets/rheinuferlauf17/nummer.jpg" alt="nummer" class="img-responsive">
+      <img src="@/assets/009_rheinuferlauf17/nummer.jpg" alt="nummer" class="img-responsive">
       <br>
 
       <h2>Training</h2>
       <p>Hier hat sich immernoch keine Struktur gefunden. Einziger Trost war eigentlich, dass ich konsistent Läufe absolvierte.</p>
-      <img src="@/assets/rheinuferlauf17/training.gif" alt="training" class="img-responsive">
+      <img src="@/assets/009_rheinuferlauf17/training.gif" alt="training" class="img-responsive">
       <p>Sehr schön erkennbar: Grün sind Trainingsläufe, Rot sind Wettläufe (Bienwaldmarathon, Schlossparklauf) nach rot kommt
         lange Zeit nichts, weil ich eigentlich immer verletzt danach war. Ansonsten rangieren die Zahlen zwischen 3 bis
         5 Läufe pro Woche.</p>
@@ -60,7 +60,7 @@
           genug um auf irgendwelchen Bildern zu sein. Man würde mich sowieso nur (tief in Gedanken) auf die Leute starren
           sehen.</p>
 
-        <img src="@/assets/rheinuferlauf17/anfang.jpg" alt="konkurrenz" class="img-responsive">
+        <img src="@/assets/009_rheinuferlauf17/anfang.jpg" alt="konkurrenz" class="img-responsive">
         <br />
 
         <p>
@@ -101,7 +101,7 @@
 
         <div class="center">
           <video width="320" height="240" class="center" controls loop muted>
-            <source src="@/assets/rheinuferlauf17/form.webm" type="video/webm" /> Your browser does not support the video tag.
+            <source src="@/assets/009_rheinuferlauf17/form.webm" type="video/webm" /> Your browser does not support the video tag.
           </video>
         </div>
 
@@ -179,7 +179,7 @@
           </tbody>
         </table>
 
-        <img src="@/assets/rheinuferlauf17/graph.png" alt="graph" class="img-responsive">
+        <img src="@/assets/009_rheinuferlauf17/graph.png" alt="graph" class="img-responsive">
         <br>
 
         <h2>Nach dem Rennen</h2>
@@ -187,7 +187,7 @@
           stattfindet. Sowas gehört sich!</p>
         <p>Bis alle durch sind und bis endlich alle (nebensächlichen) gekürt wurden kam es dann endlich zu mir. Endleistungen:</p>
 
-        <img src="@/assets/rheinuferlauf17/urkunde.png" alt="urkunde" class="img-responsive">
+        <img src="@/assets/009_rheinuferlauf17/urkunde.png" alt="urkunde" class="img-responsive">
         <br>
 
         <h2>Gesamtplatzierung: 22. von 67</h2>

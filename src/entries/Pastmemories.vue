@@ -3,7 +3,7 @@
     <template slot="date">12. April 2018</template>
     <template slot="title">past memories - Hinter den Kollissen & Grübeleien</template>
     <template slot="content">
-      <img src="@/assets/pastmemories/past_memories_logo.png">
+      <img src="@/assets/012_pastmemories/past_memories_logo.png" class="img-responsive" loading="lazy">
 
       <h2>Sinn des Blog Posts</h2>
       <p> Revue passieren, ResamVi heute mit ResamVi damals vergleichen, ein bisschen darauf eingehen
@@ -33,8 +33,8 @@
           <td><h4 class="center">Heute (After Effects)</h4></td>
         </tr>
         <tr>
-          <td><img src="@/assets/pastmemories/camera_firsttry.gif" class="img-responsive"></td>
-          <td><img src="@/assets/pastmemories/camera_today.gif" class="img-responsive"></td>
+          <td><img src="@/assets/012_pastmemories/camera_firsttry.gif" class="img-responsive"></td>
+          <td><img src="@/assets/012_pastmemories/camera_today.gif" class="img-responsive"></td>
         </tr>
       </table>
       
@@ -49,8 +49,8 @@
           <td><h4 class="center">Memes (2018)</h4></td>
         </tr>
         <tr>
-          <td class="center"><img src="@/assets/pastmemories/meme2010.gif" width="80%"></td>
-          <td class="center"><img src="@/assets/pastmemories/meme2018.gif" width="80%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/meme2010.gif" width="80%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/meme2018.gif" width="80%"></td>
         </tr>
       </table>
       
@@ -67,8 +67,8 @@
           <td><h4 class="center">Past memories (2018)</h4></td>
         </tr>
         <tr>
-          <td class="center"><img src="@/assets/pastmemories/death2010.gif" width="80%"></td>
-          <td class="center"><img src="@/assets/pastmemories/death2018.gif" width="80%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/death2010.gif" width="80%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/death2018.gif" width="80%"></td>
         </tr>
       </table>
       <br />
@@ -92,10 +92,10 @@
       Ich brauchte eine Greenscreen map, nach meinem Channel getauft. Es ist aber nur ctf5 mit grünen Hintergrund :P
       
       <h3>ctf_resamvi</h3>
-      <img src="@/assets/pastmemories/ctf_resamvi.png" class="img-responsive">
+      <img src="@/assets/012_pastmemories/ctf_resamvi.png" class="img-responsive">
       
       <h3>ctf_resamvi2</h3>
-      <img src="@/assets/pastmemories/ctf_resamvi2.png" class="img-responsive">
+      <img src="@/assets/012_pastmemories/ctf_resamvi2.png" class="img-responsive">
       
       <br />
       Ich glaub man kann sich denken wo wir in ctf_resamvi2 standen.
@@ -104,21 +104,21 @@
       
       Die Tees die in der Szene zu sehen sind waren nie da
       
-      <img src="@/assets/pastmemories/first_scene1.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/first_scene1.gif" class="img-responsive"><br />
       
       und wurden erst hinterher eingefügt.<br /><br />
       
-      <img src="@/assets/pastmemories/first_scene2.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/first_scene2.gif" class="img-responsive"><br />
       
       Atmosphäre, Licht, CC <br /><br />
       
-      <img src="@/assets/pastmemories/first_scene3.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/first_scene3.gif" class="img-responsive"><br />
       
       <h2> Der Money Shot </h2>
       
       <p>Und meine Lieblingsszene</p>
       
-      <img src="@/assets/pastmemories/money_shot.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/money_shot.gif" class="img-responsive"><br />
       
       <p>Danach das Kriegsgedicht, nur die 2. und 3. Strophe</p>
       
@@ -144,9 +144,9 @@
           <td><h4 class="center">Fertig</h4></td>
         </tr>
         <tr>
-          <td class="center"><img src="@/assets/pastmemories/greenscreen_flag.gif" width="85%"></td>
-          <td class="center"><img src="@/assets/pastmemories/thirdscene_progress.gif" width="85%"></td>
-          <td class="center"><img src="@/assets/pastmemories/thirdscene_final.gif" width="85%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/greenscreen_flag.gif" width="85%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/thirdscene_progress.gif" width="85%"></td>
+          <td class="center"><img src="@/assets/012_pastmemories/thirdscene_final.gif" width="85%"></td>
         </tr>
       </table>
       
@@ -157,13 +157,13 @@
       Und das hat schon mehrere Versuche gebraucht, lol.
       
       <h2>Takes für Tod</h2>
-      <img src="@/assets/pastmemories/greenscreen_death.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/greenscreen_death.gif" class="img-responsive"><br />
       
       <h2>Kreuzung</h2>
-      <img src="@/assets/pastmemories/greenscreen_cross.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/greenscreen_cross.gif" class="img-responsive"><br />
       
       <h2>Sex (mit Zeitansage)</h2>
-      <img src="@/assets/pastmemories/greenscreen_hearts.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/greenscreen_hearts.gif" class="img-responsive"><br />
       
       <h2>Freie Kamera</h2>
       
@@ -172,14 +172,14 @@
       Videos zum Einsatz </p>
       
       <p> Hinterher müssen einfach die einzelnen Szenen eingefügt werden an die richtigen Stellen </p>
-      <img src="@/assets/pastmemories/full_map.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/full_map.gif" class="img-responsive"><br />
       
       <p> Und alles laufen lassen und verschwinden lassen wenn die Kamera gerade läuft... manchmal auch nicht.</p>
-      <img src="@/assets/pastmemories/full_map_motion.gif" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/full_map_motion.gif" class="img-responsive"><br />
       
       <p> Zuletzt noch den Weg der Kamera und des Samenerguss, dem wir da folgen aufzeichnen... Fertig </p>
-      <img src="@/assets/pastmemories/cam_path.png" class="img-responsive"><br />
-      <img src="@/assets/pastmemories/trail_path.png" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/cam_path.png" class="img-responsive"><br />
+      <img src="@/assets/012_pastmemories/trail_path.png" class="img-responsive"><br />
       
       
       <h2>Fertiges Video</h2>

@@ -32,13 +32,13 @@
       </ol>
 
       <p>Was den größten Aufwand hatte war der Ip Man Clip.</p>
-      <img src="@/assets/jubilaeum/motion.png" alt="apfelkuchen" class="img-responsive center">
+      <img src="@/assets/010_jubilaeum/motion.png" alt="apfelkuchen" class="img-responsive center">
       <p>Die Linie im Bild entsprach der Bewegung des Nametags für 15 Sekunden. 1:40 Minuten war der Clip.
         Arghhh.</p>
 
       <p>Was für den Computer den größten Aufwand hatte waren all die doge pics. Waren locker 20 Crashs für das
         Projekt. ARRGHHH.</p>
-      <img src="@/assets/jubilaeum/doge.png" alt="apfelkuchen" class="img-responsive center">
+      <img src="@/assets/010_jubilaeum/doge.png" alt="apfelkuchen" class="img-responsive center">
       <p>Jedes "Level" ist eine Komposition. Ich hatte exponentiellen Wachstum an doge faces. Mitgezählt hab ich
         nicht mehr,
         sorry.

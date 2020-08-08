@@ -4,7 +4,7 @@
     <template slot="title">>Charity Walk &amp; Run</template>
     <template slot="content">
       <h2>Renninformationen</h2>
-      <img src="@/assets/charityrun07/runlogo.png" alt="logo" class="img-responsive" width="50%">
+      <img src="@/assets/006_charityrun17/runlogo.png" alt="logo" class="img-responsive" width="50%">
       <br>
       <strong>Wo:</strong> Karlsruhe
       <br>
@@ -12,7 +12,7 @@
       <br>
       <strong>Webseite:</strong>
       <a href="https://www.charity-walk.info/staedte/karlsruhe/">https://www.charity-walk.info/staedte/karlsruhe/</a>
-      <img src="@/assets/charityrun07/strecke.jpg" alt="strecke" class="img-responsive">
+      <img src="@/assets/006_charityrun17/strecke.jpg" alt="strecke" class="img-responsive">
       <br>
 
       <h2>Ziele</h2>
@@ -80,11 +80,11 @@
       </table>
 
       <h2>Bilder</h2>
-      <img src="@/assets/charityrun07/anfang.jpg" alt="anfang" class="img-responsive">
+      <img src="@/assets/006_charityrun17/anfang.jpg" alt="anfang" class="img-responsive">
       <br>
-      <img src="@/assets/charityrun07/nummer.jpg" alt="nummer" class="img-responsive">
+      <img src="@/assets/006_charityrun17/nummer.jpg" alt="nummer" class="img-responsive">
       <br>
-      <img src="@/assets/charityrun07/ende.jpg" alt="ende" class="img-responsive">
+      <img src="@/assets/006_charityrun17/ende.jpg" alt="ende" class="img-responsive">
 
       <h2>Training</h2>
       <p>Eine Woche vor Startschuss krieg ich diese E-Mail: "Am 21.05. um 12Uhr Laufen. Begenen. Helfen". Der Inhalt
@@ -104,7 +104,7 @@
       <p>Dinge die ich bisher gelernt habe: Man kann nie früh genug da sein. Man kann nie früh genug zur Toilette
         gehen.
         <br> Dinge die ich lernen musste: Man KANN sich zu früh aufwärmen. Nämlich 5km-zu-lang.
-        <img src="@/assets/charityrun07/warmup.png" alt="warmup" class="img-responsive">
+        <img src="@/assets/006_charityrun17/warmup.png" alt="warmup" class="img-responsive">
       </p>
 
       <h2>Im Rennen</h2>
@@ -128,7 +128,7 @@
         sie nur 1-2 Mal im Training erleben musste. Da hat auch der einfache Trick mit der Atmung auf dem anderen Bein
         nicht mehr geholfen hilft. Komplett crash</p>
 
-      <img src="@/assets/charityrun07/crash.png" alt="crash" class="img-responsive">
+      <img src="@/assets/006_charityrun17/crash.png" alt="crash" class="img-responsive">
       <br>
 
       <p>
@@ -172,7 +172,7 @@
         das sagt
         ja schon aus, dass da noch mehr hätte gehen können.</p>
 
-      <img src="@/assets/charityrun07/graph.png" alt="anfang" class="img-responsive">
+      <img src="@/assets/006_charityrun17/graph.png" alt="anfang" class="img-responsive">
       <br>
 
       <h2>Nach dem Rennen</h2>

@@ -12,6 +12,6 @@ export default {
 
 <style scoped>
 #app {
-  margin: 0% 20%;
+  margin: 0% 5%;
 }
 </style>

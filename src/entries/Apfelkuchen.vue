@@ -42,7 +42,7 @@
         <li>Abkühlen lassen.</li>
       </ol>
       <h3>Ergebnis</h3>
-      <img src="@/assets/apfelkuchen/apfelkuchen.jpg" alt="apfelkuchen" class="img-responsive">
+      <img src="@/assets/008_apfelkuchen/apfelkuchen.jpg" alt="apfelkuchen" class="img-responsive">
     </template>
   </Entry>
 </template>
