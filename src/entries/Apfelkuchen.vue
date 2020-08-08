@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">23. Juni 2017</template>
-    <template slot="title">Apfelstreuselkuchen</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Apfelkuchen">Apfelstreuselkuchen</router-link></template>
     <template slot="content">
       <h4>Zutaten</h4>
       <h5>Teig</h5>

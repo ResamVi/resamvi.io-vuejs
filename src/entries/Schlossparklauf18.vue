@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">24. November, 2018</template>
-    <template slot="title">Schlossparklauf</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Schlossparklauf18">Schlossparklauf</router-link></template>
     <template slot="content">
       <img src="@/assets/014_schlossparklauf18/logo.jpg" alt="logo" class="img-responsive" width="50%">
       <br>

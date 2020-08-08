@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">12. April 2018</template>
-    <template slot="title">past memories - Hinter den Kollissen & Grübeleien</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Pastmemories">past memories - Hinter den Kollissen & Grübeleien</router-link></template>
     <template slot="content">
       <img src="@/assets/012_pastmemories/past_memories_logo.png" class="img-responsive" loading="lazy">
 

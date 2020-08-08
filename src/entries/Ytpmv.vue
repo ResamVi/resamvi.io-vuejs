@@ -1,7 +1,7 @@
 <template>
 <Entry>
     <template slot="date">31. Oktober 2018</template>
-    <template slot="title">Teeworlds Poop Music Video (Re: Youtube Shit)</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Ytpmv">Teeworlds Poop Music Video (Re: Youtube Shit)</router-link></template>
     <template slot="content">
         <h2>Hintergrundgeschichte</h2>
         <p>

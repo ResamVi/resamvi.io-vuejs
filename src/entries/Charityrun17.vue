@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">25. Mai, 2017</template>
-    <template slot="title">>Charity Walk &amp; Run</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Charityrun17">Charity Walk &amp; Run</router-link></template>
     <template slot="content">
       <h2>Renninformationen</h2>
       <img src="@/assets/006_charityrun17/runlogo.png" alt="logo" class="img-responsive" width="50%">

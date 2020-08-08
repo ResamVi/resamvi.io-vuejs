@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">3. Mai, 2017</template>
-    <template slot="title">Käsekuchen (&Oslash; 20cm)</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Kaesekuchen">Käsekuchen (&Oslash; 20cm)</router-link></template>
     <template slot="content">
       <h2>Zutaten</h2>
         <ul>

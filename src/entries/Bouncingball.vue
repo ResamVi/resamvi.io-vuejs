@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">14. April, 2017</template>
-    <template slot="title">Bouncing ball</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Chocolatechipcookies">Bouncing ball</router-link></template>
     <template slot="content">
       <img src="@/assets/004_bouncingball/challenge1.jpg" alt="challenge descr" class="img-responsive"> Alles klar.
       <img src="@/assets/004_bouncingball/ballbounce.gif" alt="bouncing ball" class="img-responsive" /> Leicht erkennbar, in drei Schritten: Fundamentale Bewegung zuerst, Beschleunigung danach,

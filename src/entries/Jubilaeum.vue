@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">5. September, 2017</template>
-    <template slot="title">100 Abonennenten</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Jubilaeum">100 Abonennenten</router-link></template>
     <template slot="content">
       <p>Ich hab 100 Abonennten gekriegt, dazu ein Video voll mit Memes gemacht.</p>
 

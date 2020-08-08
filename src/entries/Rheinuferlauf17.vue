@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">23. Juli, 2017</template>
-    <template slot="title">Rheinuferlauf</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Rheinuferlauf17">Rheinuferlauf</router-link></template>
     <template slot="content">
       <img src="@/assets/009_rheinuferlauf17/kehllogo.png" alt="logo" class="img-responsive" width="75%" style="border-radius:10px;">
       <br>

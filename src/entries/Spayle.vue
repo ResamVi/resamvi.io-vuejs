@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">13. Oktober 2017</template>
-    <template slot="title">SPAYLE - Alpha Release</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Spayle">SPAYLE - Alpha Release</router-link></template>
     <template slot="content">
       <header class="center">
         <p>Der Alpha-Release von meinem Game:</p>

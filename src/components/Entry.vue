@@ -5,7 +5,7 @@
           <slot name="date"></slot>
       </h3>
       <h2 class="entry-title">
-          <slot name="title"></slot>
+          <slot name="title"><router-link class="nostyle" to="/eintrag/xxx"></router-link></slot>
       </h2>
     </header>
     <section class="entry-content">

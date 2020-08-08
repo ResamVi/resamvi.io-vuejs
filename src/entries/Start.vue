@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">1. April, 2017</template>
-    <template slot="title">Zum Start des Blogs</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Start">Zum Start des Blogs</router-link></template>
     <template slot="content">
       <p>Habe ich auch gleichzeitig ein neues Teeworlds Video auf meinem Youtube Channel hochgeladen.</p>
 

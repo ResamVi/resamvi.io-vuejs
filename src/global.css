@@ -106,3 +106,20 @@ audio {
     font-family: 'Open Sans';
     src: url('assets/fonts/OpenSans-CondLight-webfont.ttf') format('truetype');
 }
+
+a.nostyle:link,
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    font-family: 'Cinzel';
+    font-weight: normal;
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    margin-top: 0px;
+    border-bottom: 1px solid #333;
+    display: block;
+}
+
+a.nostyle:hover {
+    text-decoration: underline;
+}

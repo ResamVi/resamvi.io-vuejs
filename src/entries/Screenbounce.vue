@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">20. April, 2017</template>
-    <template slot="title">Bounce across screen</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Screenbounce">Bounce across screen</router-link></template>
     <template slot="content">
       Zweite Übung:
       <img src="@/assets/005_screenbounce/challenge2.jpg" alt="challenge descr" class="img-responsive center"> Was konnte

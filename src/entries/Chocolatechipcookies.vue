@@ -1,7 +1,7 @@
 <template>
   <Entry>
     <template slot="date">13. April, 2017</template>
-    <template slot="title">Chocolate Chip Cookies</template>
+    <template slot="title"><router-link class="nostyle" to="/eintrag/Bouncingball">Chocolate Chip Cookies</router-link></template>
     <template slot="content">
     <h2>Zutaten</h2>
       <ul>
