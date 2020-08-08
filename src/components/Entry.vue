@@ -15,36 +15,9 @@
 </template>
 
 <script>
-
 export default {
-
-  data() {
-    const entryTitle = this.$route.path.slice('/eintrag/'.length);
-    
-    return {
-      name: 'Anonym',
-      title: `Re: ${entryTitle}`,
-      content: 'Hey, ',
-    };
-  },
-
-  methods: {
-    send() {
-      const http = new XMLHttpRequest();
-      http.open('POST', 'https://resamvi.de:9090', true);
-      http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-
-      http.onreadystatechange = () => {
-        if (http.readyState === 4 && http.status === 200) {
-          alert('Mail gesendet');
-        }
-      };
-
-      http.send(`name=${this.name}&title=${this.title}&content=${this.content}`);
-    },
-  },
-};
-
+  
+}
 </script>
 
 <style scoped>
