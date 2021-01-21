@@ -16,12 +16,33 @@
       </div>
 
       <div id="hero-icons">
-        <a href="https://github.com/ResamVi">
-          <img src="@/assets/github.png" class="icon">
-        </a>
-        <a href="https://www.youtube.com/user/ResamVi">
-          <img src="@/assets/youtube.png" class="icon">
-        </a>
+        <div class="icon-column">
+          <a href="https://github.com/ResamVi">
+            <img src="@/assets/github.png" class="icon">
+          </a>
+          <span class="icon-description">Code</span>
+        </div>
+        
+        <div class="icon-column">
+          <a href="https://www.youtube.com/user/ResamVi">
+            <img src="@/assets/youtube.png" class="icon">
+          </a>
+          <span class="icon-description">Videos</span>
+        </div>
+
+        <div class="icon-column">
+          <a href="https://wiki.resamvi.io/books">
+            <img src="@/assets/wiki.png" class="icon">
+          </a>
+          <span class="icon-description">Wiki</span>
+        </div>
+
+        <div class="icon-column">
+          <a href="https://dst.resamvi.io/">
+            <img src="@/assets/dstvis.png" class="icon">
+          </a>
+          <span class="icon-description">DST-Vis</span>
+        </div>
       </div>
     </div>
   </header>
@@ -70,8 +91,21 @@
 }
 
 .icon {
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
   display: inline;
+}
+
+.icon-column {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin: 0 15px;
+}
+
+.icon-description {
+  font-family: 'Cinzel';
+  font-weight: bold;
+  overflow-wrap: break-word;
 }
 
 /* Resizing Text and Images appropriately */
