@@ -474,9 +474,9 @@ done
 import Entry from '@/components/Entry.vue';
 
 export default {
-    name: 'Speedtest',
-    components: {
-        Entry,
-    },
+  name: 'Speedtest',
+  components: {
+    Entry,
+  },
 };
 </script>

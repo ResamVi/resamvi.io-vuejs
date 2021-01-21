@@ -326,10 +326,10 @@
 import Entry from '@/components/Entry.vue';
 
 export default {
-    name: 'ytpmv',
-    components: {
-        Entry,
-    },
+  name: 'ytpmv',
+  components: {
+    Entry,
+  },
 };
 </script>
 

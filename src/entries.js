@@ -14,49 +14,49 @@ import SoloEntry from './components/SoloEntry.vue';
  * using its name as `path` and appending them to the list of children
  */
 const entries = {
-    path: '/eintrag',
-    component: SoloEntry,
-    children: [],
+  path: '/eintrag',
+  component: SoloEntry,
+  children: [],
 };
 
 // Register all components inside the `entries` folder globally
 const requireComponent = require.context('./entries', false, /\w+\.vue$/);
 
 requireComponent.keys().forEach((fileName) => {
-    const componentConfig = requireComponent(fileName);
+  const componentConfig = requireComponent(fileName);
 
-    // Look for the component options on `.default`, which will
-    // exist if the component was exported with `export default`,
-    // otherwise fall back to module's root.
-    const component = componentConfig.default || componentConfig;
+  // Look for the component options on `.default`, which will
+  // exist if the component was exported with `export default`,
+  // otherwise fall back to module's root.
+  const component = componentConfig.default || componentConfig;
 
-    entries.children.push({ component, path: component.name });
+  entries.children.push({ component, path: component.name });
 
-    Vue.component(
-        // Remove './'-prefix and '.vue'-suffix
-        fileName.slice(2, fileName.length - 4),
-        component,
-    );
+  Vue.component(
+    // Remove './'-prefix and '.vue'-suffix
+    fileName.slice(2, fileName.length - 4),
+    component,
+  );
 });
 
 export const routes = [entries];
 
 export const order = [
-    '', // v-for is 1-indexed not 0-index
-    'InfclassStats',
-    'Speedtest',
-    'Schlossparklauf18',
-    'Ytpmv',
-    'Pastmemories',
-    'Spayle',
-    'Jubilaeum',
-    'Rheinuferlauf17',
-    'Apfelkuchen',
-    'Kaesekuchen',
-    'Charityrun17',
-    'Screenbounce',
-    'Bouncingball',
-    'Chocolatechipcookies',
-    'Start',
-    'Erster',
+  '', // v-for is 1-indexed not 0-index
+  'InfclassStats',
+  'Speedtest',
+  'Schlossparklauf18',
+  'Ytpmv',
+  'Pastmemories',
+  'Spayle',
+  'Jubilaeum',
+  'Rheinuferlauf17',
+  'Apfelkuchen',
+  'Kaesekuchen',
+  'Charityrun17',
+  'Screenbounce',
+  'Bouncingball',
+  'Chocolatechipcookies',
+  'Start',
+  'Erster',
 ];
