@@ -43,6 +43,13 @@
           </a>
           <span class="icon-description">DST-Vis</span>
         </div>
+
+        <div class="icon-column">
+          <a href="https://stats.resamvi.io/">
+            <img src="@/assets/infclass.png" class="icon">
+          </a>
+          <span class="icon-description">InfClass Stats</span>
+        </div>
       </div>
     </div>
   </header>
