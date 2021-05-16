@@ -16,7 +16,11 @@
 
     <footer id="selfie">
       <img src="@/assets/ich.jpg" alt="ich" class="img-responsive">
-      <p id="name">Julien Midedji</p>
+      <p id="name">
+        Julien Midedji <br/>
+        &nbsp;&nbsp;&nbsp;- <a href="mailto:julien@resamvi.io">Julien@resamvi.io</a>
+        </p>
+      
     </footer>
   </main>
 </template>

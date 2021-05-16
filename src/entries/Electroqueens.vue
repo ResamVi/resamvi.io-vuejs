@@ -2,19 +2,17 @@
   <Entry>
     <template slot="date">16. Mai, 2021</template>
     <template slot="title"
-      ><router-link class="nostyle" to="/eintrag/Eletroqueens"
-        >Glitch, Genshin und House Musik</router-link
+      ><router-link class="nostyle" to="/eintrag/Electroqueens"
+        >Neues Video</router-link
       ></template
     >
     <template slot="content">
-      <h3>Neues Video:</h3>
-      <p class="center">Electro Queens | Genshin Impact edit</p>
+      <p>Electro Queens</p>
       <img
         src="@/assets/017_electroqueens/thumbnail.png"
         alt="thumbnail"
-        class="img-responsive center-img"
+        class="img-responsive"
       />
-      <br />
 
       <h3>Idee für neues Video &amp; Abgang von Teeworlds</h3>
       <p>
@@ -162,9 +160,8 @@
       <p>
         Ich habe in der Reihenfolge Keqing -> Fischl -> Beidou -> Lisa editiert.
         Und von der Schwierigkeit <br />
-        her, die Charaktere so zu inszenieren, dass es ihnen gerecht wird war
-        Fischl am leichtesten und dann: <br />
-        Fischl &lt; Keqing &lt; Beidou &lt; Lisa
+        her, die Charaktere gut genug zu inszenieren, war Fischl am leichtesten
+        und dann: Fischl &lt; Keqing &lt; Beidou &lt; Lisa
       </p>
 
       <h2>Money Shots</h2>
@@ -180,7 +177,7 @@
       <p>
         Die ersten Noten setzen die Erwartungen. Also lassen wir nicht viel Zeit
         für '3D, flashy, xXx ResamVi Productions pls subscribe' Intros sondern
-        wir triggern am besten gleich die Photosensitivität des Zuschauers.
+        wir triggern am besten gleich die Photosensitivität des Zuschauers:
       </p>
 
       <img
@@ -198,28 +195,70 @@
         richtiges Feuerwerk :^)
       </p>
 
+      <img
+        src="@/assets/017_electroqueens/glitch_timeline.png"
+        alt="keqing moneyshot"
+        class="img-responsive center-img"
+      />
+      <br />
+
       <table class="no-border">
         <td>
+          keqing ult
           <img
-            src="@/assets/017_electroqueens/moneyshot_keqing.gif"
+            src="@/assets/017_electroqueens/glitch_clean.gif"
             loading="lazy"
             alt="ohne effekte"
             class="img-responsive"
           />
         </td>
+        <td>+</td>
         <td>
+          glitch1
           <img
-            src="@/assets/017_electroqueens/moneyshot_keqing.gif"
+            src="@/assets/017_electroqueens/glitch_glitch1.png"
             loading="lazy"
-            alt="mit effekte"
+            alt="effekt 1"
             class="img-responsive"
           />
         </td>
+        <td>+</td>
         <td>
+          glitch2
+          <img
+            src="@/assets/017_electroqueens/glitch_glitch2.png"
+            loading="lazy"
+            alt="effekte 2"
+            class="img-responsive"
+          />
+        </td>
+        <td>+</td>
+        <td>
+          glitch3
+          <img
+            src="@/assets/017_electroqueens/glitch_glitch3.png"
+            loading="lazy"
+            alt="effekt 3"
+            class="img-responsive"
+          />
+        </td>
+        <td>+</td>
+        <td>
+          outline
+          <img
+            src="@/assets/017_electroqueens/glitch_outline.gif"
+            loading="lazy"
+            alt="outline effekt"
+            class="img-responsive"
+          />
+        </td>
+        <td>=</td>
+        <td>
+          Ergebnis
           <img
             src="@/assets/017_electroqueens/moneyshot_keqing.gif"
             loading="lazy"
-            alt="mit CC"
+            alt="ergebnis"
             class="img-responsive"
           />
         </td>
@@ -262,8 +301,36 @@
       />
       <br />
 
-      <p>Eine andere neue Technik: Expressions</p>
       <p>
+        Zuerst muss Fischl maskiert werden. Maskieren ist aufwändige Arbeit aber
+        dank noch mehr KI kann sich das mit dem Roto-Brush Tool echt
+        verschnellern. Man macht die Maske für den ersten Frame und dann wird
+        daraus die Maske der nächsten Frame interpoliert (mit einigen Fehlern,
+        wo man nachjustieren muss):
+      </p>
+
+      <img
+        src="@/assets/017_electroqueens/rotobrush_setup.gif"
+        alt="fischl hintergrund"
+        class="img-responsive center-img"
+      />
+
+      <p>
+        Wenn Fischl maskiert ist, dann können wir den Text hinter die Maske
+        setzen und hinter den Text einfach die originale Footage. Zuletzt wird
+        dann noch ein Shake-Effekt hinzugefügt
+      </p>
+
+      <img
+        src="@/assets/017_electroqueens/fischl_rotobrush_expression.gif"
+        alt="fischl hintergrund"
+        class="img-responsive center-img"
+      />
+
+      <p>
+        Der Shake-Effekt ist ebenfalls eine neue Technik: Erzeugt mit
+        Expressions<br />
+
         Auf einem Adjustment-Layer mit dem "Transform"-Effekt wird Alt-Click auf
         die Stoppuhr von z.B. "Position" gemacht, um das Keyframing zu starten
         und um folgenden Code- Schnippsel eingefügt werden und die Werte für
@@ -297,83 +364,91 @@
         }<br />
       </code>
 
-      <p>Das kann dann zu folgendem Ergebnis führen</p>
-      <table class="no-border">
-        <tr>
-          <td><h4 class="center">Ohne Expression</h4></td>
-          <td><h4 class="center">Mit Expression</h4></td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="@/assets/012_pastmemories/camera_firsttry.gif"
-              class="img-responsive"
-            />
-          </td>
-          <td>
-            <img
-              src="@/assets/012_pastmemories/camera_today.gif"
-              class="img-responsive"
-            />
-          </td>
-        </tr>
-      </table>
-
       <h3>Beidou's Counter: Content-Aware Fill</h3>
 
-        <p>Beim Tooling, um Videos aufzunehmen gibt uns Mihoyo rein gar nichts. Aufeinmal merkt man wie mächtig das Demo-System
-            bei Teeworlds eigentlich ist.<br/>
-        </p>
+      <p>
+        Beim Tooling, um Videos aufzunehmen gibt uns Mihoyo rein gar nichts.
+        Aufeinmal merkt man wie mächtig das Demo-System bei Teeworlds eigentlich
+        ist.<br />
+      </p>
 
-        <p>Großes Problem: Die HUD muss weg.</p>
+      <p>Großes Problem: Die HUD muss weg.</p>
 
-        <p>Lösung: Content-Aware Fill. Man maskiert ungewünschte Elemente raus. Die KI interpolieren aus der Umgebung und aus vergangen
-            Frames wie die Lücke zu füllen ist. Jedoch wenn man mal genauer hinschaut sieht man immer noch einige Makel:
-        </p>
+      <p>
+        Lösung: Content-Aware Fill. Man maskiert ungewünschte Elemente raus. Die
+        KI interpolieren aus der Umgebung und aus vergangen Frames wie die Lücke
+        zu füllen ist.
+      </p>
 
-         <img
-              src="@/assets/012_pastmemories/camera_firsttry.gif"
-              class="img-responsive"
-            />
+      <p>Bei After Effects gibt es einen eigenen Reiter für Content-Aware Fill:</p>
+      <img
+        src="@/assets/017_electroqueens/fill_use.png"
+        class="img-responsive"
+      />
 
-        <p>Ein bisschen Color Correction, um es zu vertuschen und es ist immernoch besser als den Text und die Elemente überhaupt zu sehen.
-            Und sind wir mal ehrlich. Wem sind die Makel schon aufgefallen? :P</p>
-
-        <table class="no-border">
+      <table class="no-border">
         <tr>
-          <td><h4 class="center">HUD noch drinnen</h4></td>
-          <td><h4 class="center">HUD rausgenommen</h4></td>
-          <td><h4 class="center">Mit CC</h4></td>
+          <td><h4 class="center">Davor</h4></td>
+          <td><h4 class="center">Maske</h4></td>
+          <td><h4 class="center">Danach</h4></td>
         </tr>
         <tr>
           <td>
             <img
-              src="@/assets/012_pastmemories/camera_firsttry.gif"
+              src="@/assets/017_electroqueens/fill_ohne.png"
               class="img-responsive"
+              style="width:720px;"
             />
           </td>
           <td>
             <img
-              src="@/assets/012_pastmemories/camera_today.gif"
+              src="@/assets/017_electroqueens/fill_masked.png"
               class="img-responsive"
+              style="width:720px;"
             />
           </td>
           <td>
             <img
-              src="@/assets/012_pastmemories/camera_today.gif"
+              src="@/assets/017_electroqueens/fill_result.png"
               class="img-responsive"
+              style="width:720px;"
             />
           </td>
         </tr>
       </table>
 
+      <p>Jedoch wenn man mal genauer hinschaut sieht man immer
+        noch einige Makel.</p>
 
-      <img
-        src="@/assets/017_electroqueens/beidou_cuts.gif"
-        alt="beidou cuts"
-        class="img-responsive center-img"
-      />
-      <br />
+      <p>Vergleich:</p>
+      <table class="no-border">
+        <tr>
+          <td><h4 class="center">Bevor</h4></td>
+          <td><h4 class="center">Danach</h4></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="@/assets/017_electroqueens/fill_without.gif"
+              class="img-responsive"
+              style="width:720px;"
+            />
+          </td>
+          <td>
+            <img
+              src="@/assets/017_electroqueens/beidou_cuts.gif"
+              class="img-responsive"
+              style="width:720px;"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <p>
+        Ein bisschen Color Correction, um es zu vertuschen und es ist immernoch
+        besser als den Text und die Elemente überhaupt zu sehen. Und sind wir
+        mal ehrlich. Wem sind die Makel schon aufgefallen? :P
+      </p>
 
       <p>
         Vielleicht erwähnenswert: Von den Damage Zahlen beim Ruin Guard Konter,
@@ -395,26 +470,47 @@
       />
       <br />
 
-      <h3>Lisa's Comic Streifen</h3>
-
       <h3>Scrapped</h3>
-      Lisa's Kuss Lisa am Aufladen
+      <p>Nach ein bisschen Feedback gab's einiges was nicht den final cut gemacht hat:</p>
+
+      <p>Lisa am Zwinkern und Kuss, und beim Aufladen ihres Skills</p>
+      <img
+        src="@/assets/017_electroqueens/scrapped2.gif"
+        alt="scrapped1"
+        class="img-responsive center-img"
+      />
+      <br />
+
+      <p></p>
+      <img
+        src="@/assets/017_electroqueens/scrapped1.gif"
+        alt="scrapped1"
+        class="img-responsive center-img"
+      />
+      <br />
 
       <h3>Ergebnis</h3>
 
-      <p>35 Stunden für ein 18 Sekunden Video. Worth.</p>
+      <p>35 Stunden für ein 19 Sekunden Video. Worth.</p>
       <img
         src="@/assets/017_electroqueens/effortspent.png"
         alt="verbrachte Zeit"
-        class="img-responsive center-img"
+        class="img-responsive"
       />
-      
+
       <p>Renderzeit: 40min</p>
-        <img
-        src="@/assets/017_electroqueens/beidou_damage.gif"
-        alt="beidou damage numbers"
-        class="img-responsive center-img"
+      <img
+        src="@/assets/017_electroqueens/rendertime.png"
+        alt="render time"
+        class="img-responsive"
       />
+      <br />
+
+      <p class="center">Video:</p>
+
+      <div class="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CINC638X29U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
     </template>
   </Entry>
@@ -424,7 +520,7 @@
 import Entry from "@/components/Entry.vue";
 
 export default {
-  name: "erster",
+  name: "electroqueens",
   components: {
     Entry,
   },
@@ -452,8 +548,10 @@ export default {
 }
 
 .no-border tr {
-    border: none;
+  border: none;
 }
 
-
+table {
+  vertical-align: middle;
+}
 </style>
