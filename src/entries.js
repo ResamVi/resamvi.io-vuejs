@@ -43,6 +43,7 @@ export const routes = [entries];
 
 export const order = [
   '', // v-for is 1-indexed not 0-index
+  'Badischemeile22',
   'Electroqueens',
   'InfclassStats',
   'Speedtest',
